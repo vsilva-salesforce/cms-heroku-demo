@@ -28,7 +28,7 @@
         <div class="main__head section">
             <div class="container">
                 <h1 class="title">Hello, CRM on Heroku</h1>
-                <h2 class="subtitle">CRM on Heroku Demo v2</h2>
+                <h2 class="subtitle">CRM on Heroku Demo v3</h2>
             </div>
         </div>
         <section class="section article-list">
@@ -70,10 +70,10 @@
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-		embedded_svc.settings.defaultMinimizedText = 'Converse com um agente'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
-		embedded_svc.settings.loadingText = 'Carregando'; //(Defaults to Loading)
+		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
 		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
 
 		// Settings for Chat
@@ -100,7 +100,7 @@
 				buttonId: '5734T000000gIOA',
 				baseLiveAgentURL: 'https://d.la4-c1-ph2.salesforceliveagent.com/chat',
 				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I4T000000gBlOUAU_171bc115051',
-				isOfflineSupportEnabled: false
+				isOfflineSupportEnabled: true
 			}
 		);
 	};
